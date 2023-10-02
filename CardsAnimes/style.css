@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background:url(https://img.freepik.com/vetores-gratis/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpg?size=626&ext=jpg&ga=GA1.2.1647095270.1686774194&semt=ais) no-repeat top center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards {
+    background-color: green;
+    width: 230px;
+    height: 392px;
+    margin: 10px;
+    position: relative;
+    transition: all .7s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.face{
+    position: absolute;
+    height: 392px;
+    width: 230px;
+    backface-visibility: hidden;
+}
+.flip{
+    transform: rotateY(180deg);;
+}

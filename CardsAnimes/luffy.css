@@ -1,0 +1,10 @@
+#frontLuffy{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d03b694a-498b-4c57-9479-ef53a71a21b7/df4256z-2f779d5b-7105-4ada-bc83-f4b476868b37.png/v1/fit/w_828,h_1034,q_70,strp/luffy_gear_5_by_xavierjvg_df4256z-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5NyIsInBhdGgiOiJcL2ZcL2QwM2I2OTRhLTQ5OGItNGM1Ny05NDc5LWVmNTNhNzFhMjFiN1wvZGY0MjU2ei0yZjc3OWQ1Yi03MTA1LTRhZGEtYmM4My1mNGI0NzY4NjhiMzcucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.vtmfhllHHeiVC7xZtV6Qsx8Wz6lHJr-XCIM-BSOGjh8) no-repeat top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#backLuffy{
+    background:url(https://upload.wikimedia.org/wikipedia/pt/thumb/f/fd/Opluffy.png/230px-Opluffy.png) no-repeat;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}

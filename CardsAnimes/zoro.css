@@ -1,0 +1,11 @@
+#frontZoro{
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/547/374/desktop-wallpaper-roronoa-zoro-by-portgasdbrand-zoro-dark-thumbnail.jpg) no-repeat top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#backZoro{
+    background: url(https://upload.wikimedia.org/wikipedia/pt/thumb/6/6e/Zor%C3%A3o.png/220px-Zor%C3%A3o.png)no-repeat top center;
+    background-size: cover;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}

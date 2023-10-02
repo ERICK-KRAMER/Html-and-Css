@@ -1,0 +1,12 @@
+#frontNami{
+    background: url(https://i.pinimg.com/564x/31/99/7f/31997f7e6df939ce0cac6ee3c4dd13aa.jpg) no-repeat top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#backNami{
+    background: url(https://d378gi9d49keux.cloudfront.net/wp-content/uploads/2023/08/Nami-Wallpaper-Mobile-One-Piece-Anime-001.jpg) no-repeat top center;
+    background-size: cover;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}

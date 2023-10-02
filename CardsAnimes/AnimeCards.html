@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexCards Animer</title>
+    <link rel="stylesheet" href="luffy.css">
+    <link rel="stylesheet" href="zoro.css">
+    <link rel="stylesheet" href="nami.css">
+    <link rel="stylesheet" href="usoop.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Piratas do Chapéu de Palha</h1>
+    <div class="container">
+        <article class="cards flip">
+            <div class="face" id="frontLuffy"></div>
+            <div class="face" id="backLuffy"></div>
+        </article>
+        <article class="cards flip">
+            <div class="face" id="frontZoro"></div>
+            <div class="face" id="backZoro"></div>
+        </article>
+        <article class="cards flip">
+            <div class="face" id="frontNami"></div>
+            <div class="face" id="backNami"></div>
+        </article>
+        <article class="cards flip">
+            <div class="face" id="frontUsoop"></div>
+            <div class="face" id="backUsoop"></div>
+        </article>
+    </div>
+    <footer>
+        Kramer Desenvolviment&copy;
+    </footer>
+    <script>
+        const cards = document.querySelectorAll(".cards");
+        cards.forEach(card => {
+            card.addEventListener("click", evt => {
+                card.classList.toggle("flip");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#frontUsoop{
+    background: url(https://is.zobj.net/image-server/v1/images?r=t5uZafpsgfQqjy_2V4F90uzuC9NgxQLQyAqAjxSTq8hRoDpauCHUZOZjMBhdL-dyfCT5eHTIVmeZdWEjfl5BQSBsal5oSUlKVXkahczRPyf2-n13gqHiybfJxJyWyeVtArga48RmKzMwGeQfNH-rRxnkwhAMDjs_-mIIprP_zMfXrAXdBfbqCdK5KItV3sJcdff4EJhNTTIJFueyeZ-d9O5AhWBkfZziQ2cgXWiFaZHRdoePVGyV0YWWG7I)no-repeat top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#backUsoop{
+    background: url(https://is.zobj.net/image-server/v1/images?r=XKBav-gbLoN1fuLDUtYk9ZY60k-bUDvb4X4Nnmy6igdVLN3HGu30YLW1s37tAz-FyCr8FMdVFTipAKXfw_2NBTk_2BM5g9kh5HkPwu7T8EGDLuRSC91auSBv_5bs-tTtuKmEPkm48W9uB7Fniz7jZ3MQGknWlN9WHjvVYRi2MfndkMpMe0zszvwcelc1oTgEkcMAztcRfAxDVnMst6VIycRUHlyIL7Dy85aALn7BeJfEirpmjXprjp7VTVw) no-repeat top center;
+    background-size: cover;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}

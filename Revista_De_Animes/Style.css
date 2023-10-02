@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(172, 179, 182);
+}
+header > h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+header {
+    background-color:#17AEA0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#isearch{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    padding: 2%;
+}
+header > nav {
+    width: 450px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav> a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background:#ffff;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+nav > a:hover {
+    transform: translate(3px,-3px);
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.514);
+}
+nav > a:active {
+    background:#d3d3d3;
+    color: black;
+}
+section{
+    padding-bottom: 10%;
+}
+footer {
+    bottom: 0;
+    background:#17AEA0;
+    width: 100%;
+    height: 140px;
+    display: inline-block;
+}
+.container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.animes{
+    margin: 15px;
+    width: 261px;
+    height: 392px;
+    transition: all .5s ease;
+}
+.animes:hover {
+    transform: scale(.98);
+    border: 5px solid #17AEA0;
+}
+
+#onePierce{
+    background: url(imagens/onePierceM.jpg);
+}
+#bleach {
+    background: url(imagens/bleachM.jpg);
+}
+#hxh{
+    background: url(imagens/hxhM.jpg)top center;
+}
+#full{
+    background: url(imagens/fullM.jpe);
+}
+#demon {
+    background: url(imagens/demonSlayerM.jpg);
+}
+#fruit{
+    background: url(imagens/fruitBasketM.jpg);
+}
+
